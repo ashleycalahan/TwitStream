@@ -1,7 +1,7 @@
 function init_twitter (data) {
 	var html = "<ul id='tweet_list'>";
 	for (i in data) {
-		var _text = data[i].text;
+	    var _text = data[i].text;
 	    for (j in data[i].entities) {
 	    	var _obj = data[i].entities[j];
 	    	switch (j) {
