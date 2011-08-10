@@ -1,1 +1,12 @@
-This is a very early version… unusable at this point.
+Simple Deployment:
+
+In <head>
+
+<script id="twit_stream" screenname="<yourscreename>" src="twit_stream.js" type="text/javascript"></script>
+
+
+In <body>
+
+<div id="tweets"></div>
+
+And thats it!
